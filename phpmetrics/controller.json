@@ -1,0 +1,233 @@
+{
+    "App\\Http\\Controllers\\GatewayController": {
+        "name": "App\\Http\\Controllers\\GatewayController",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "register",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "login",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "kelas",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "orders",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "daftar",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 5,
+        "nbMethods": 5,
+        "nbMethodsPrivate": 0,
+        "nbMethodsPublic": 5,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 0,
+        "wmc": 10,
+        "ccn": 6,
+        "ccnMethodMax": 3,
+        "externals": [
+            "App\\Http\\Controllers\\Controller",
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController"
+        ],
+        "parents": [
+            "App\\Http\\Controllers\\Controller"
+        ],
+        "implements": [],
+        "lcom": 5,
+        "length": 119,
+        "vocabulary": 54,
+        "volume": 684.83,
+        "difficulty": 2.85,
+        "effort": 1953.78,
+        "level": 0.35,
+        "bugs": 0.23,
+        "time": 109,
+        "intelligentContent": 240.04,
+        "number_operators": 22,
+        "number_operands": 97,
+        "number_operators_unique": 3,
+        "number_operands_unique": 51,
+        "cloc": 0,
+        "loc": 46,
+        "lloc": 46,
+        "mi": 43.07,
+        "mIwoC": 43.07,
+        "commentWeight": 0,
+        "kanDefect": 0.5,
+        "relativeStructuralComplexity": 169,
+        "relativeDataComplexity": 0.76,
+        "relativeSystemComplexity": 169.76,
+        "totalStructuralComplexity": 845,
+        "totalDataComplexity": 3.79,
+        "totalSystemComplexity": 848.79,
+        "package": "App\\Http\\Controllers\\",
+        "pageRank": 1,
+        "afferentCoupling": 0,
+        "efferentCoupling": 5,
+        "instability": 1,
+        "violations": {},
+        "_type": "Hal\\Metric\\ClassMetric"
+    },
+    "App\\Http\\Controllers\\": {
+        "name": "App\\Http\\Controllers\\",
+        "classes": [
+            "App\\Http\\Controllers\\GatewayController"
+        ],
+        "outgoing_class_dependencies": [
+            "Illuminate\\Http\\Request",
+            "Illuminate\\Support\\Facades\\Validator",
+            "App\\Http\\Controllers\\Helpers\\ResponseFormatterController",
+            "Illuminate\\Support\\Facades\\Http"
+        ],
+        "outgoing_package_dependencies": [
+            "Illuminate\\Http\\",
+            "Illuminate\\Support\\Facades\\",
+            "App\\Http\\Controllers\\Helpers\\"
+        ],
+        "abstraction": 0,
+        "instability": 1,
+        "dependent_instabilities": [],
+        "distance": 0,
+        "normalized_distance": 0,
+        "violations": {},
+        "_type": "Hal\\Metric\\PackageMetric"
+    },
+    "tree": {
+        "name": "tree",
+        "depthOfInheritanceTree": 2,
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "composer": {
+        "name": "composer",
+        "packages": {
+            "laravel\/framework": {
+                "latest": "12.15.0",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "https:\/\/laravel.com",
+                "description": "The Laravel Framework.",
+                "time": "2025-05-20T15:10:44+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/framework\/zipball\/2ef7fb183f18e547af4eb9f5a55b2ac1011f0b77",
+                "compare": true,
+                "type": "library",
+                "github_stars": 33627,
+                "github_watchers": 960,
+                "github_forks": 11378,
+                "github_open_issues": 87,
+                "download_total": 423285956,
+                "download_monthly": 9154019,
+                "download_daily": 342098,
+                "favers": 34098,
+                "name": "laravel\/framework",
+                "installed": "11.44.7",
+                "required": "^11.31",
+                "status": "outdated"
+            },
+            "laravel\/sanctum": {
+                "latest": "4.1.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+                "time": "2025-04-23T13:03:38+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/sanctum\/zipball\/a360a6a1fd2400ead4eb9b6a9c1bb272939194f5",
+                "compare": true,
+                "type": "library",
+                "github_stars": 2836,
+                "github_watchers": 50,
+                "github_forks": 299,
+                "github_open_issues": 1,
+                "download_total": 130323516,
+                "download_monthly": 4202429,
+                "download_daily": 162102,
+                "favers": 2853,
+                "name": "laravel\/sanctum",
+                "installed": "4.1.1",
+                "required": "^4.0",
+                "status": "latest"
+            },
+            "laravel\/tinker": {
+                "latest": "2.10.1",
+                "license": [
+                    "MIT"
+                ],
+                "homepage": "",
+                "description": "Powerful REPL for the Laravel framework.",
+                "time": "2025-01-27T14:24:01+00:00",
+                "zip": "https:\/\/api.github.com\/repos\/laravel\/tinker\/zipball\/22177cc71807d38f2810c6204d8f7183d88a57d3",
+                "compare": true,
+                "type": "library",
+                "github_stars": 7383,
+                "github_watchers": 36,
+                "github_forks": 131,
+                "github_open_issues": 0,
+                "download_total": 344456364,
+                "download_monthly": 8256052,
+                "download_daily": 328502,
+                "favers": 7415,
+                "name": "laravel\/tinker",
+                "installed": "2.10.1",
+                "required": "^2.9",
+                "status": "latest"
+            }
+        },
+        "packages-installed": {
+            "laravel\/framework": "11.44.7",
+            "laravel\/sanctum": "4.1.1",
+            "laravel\/tinker": "2.10.1"
+        },
+        "violations": {},
+        "_type": "Hal\\Metric\\ProjectMetric"
+    },
+    "searches": {
+        "name": "searches",
+        "violations": {},
+        "_type": "Hal\\Metric\\SearchMetric"
+    }
+}

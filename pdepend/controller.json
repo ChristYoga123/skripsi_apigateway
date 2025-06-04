@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2025-05-27T07:32:31" pdepend="@package_version@" ahh="2" andc="0" calls="40" ccn="10" ccn2="10" cloc="0" clsa="0" clsc="1" eloc="81" fanout="4" leafs="0" lloc="32" loc="101" maxDIT="2" ncloc="101" noc="1" nof="0" noi="0" nom="5" nop="1" roots="1">
+  <files>
+    <file name="D:\Kuliah\Project\api-gateway\app\Http\Controllers\GatewayController.php" loc="101" cloc="0" eloc="81" lloc="32" ncloc="101"/>
+  </files>
+  <package name="App\Http\Controllers" noc="1" noi="0" nom="5" nof="0" cr="0.15" rcr="0.15">
+    <class name="GatewayController" fqname="App\Http\Controllers\GatewayController" start="10" end="100" loc="91" cloc="0" eloc="67" lloc="22" ncloc="91" dit="2" noam="5" nocc="0" noom="0" nom="5" cr="0.15" rcr="0.2775" ca="0" cbo="4" ce="4" impl="0" cis="5" csz="5" npm="5" vars="0" varsi="0" varsnp="0" wmc="10" wmci="10" wmcnp="10">
+      <file name="D:\Kuliah\Project\api-gateway\app\Http\Controllers\GatewayController.php"/>
+      <method name="register" start="12" end="49" ccn="3" ccn2="3" loc="38" cloc="0" eloc="33" lloc="7" ncloc="38" npath="4" hnt="131" hnd="59" hv="770.6262394664" hd="7.7551020408163" hl="0.12894736842105" he="5976.2851223925" ht="332.01584013292" hb="0.1097740324653" hi="99.370225615404" mi="46.257964559204"/>
+      <method name="login" start="51" end="73" ccn="3" ccn2="3" loc="23" cloc="0" eloc="18" lloc="7" ncloc="23" npath="4" hnt="73" hnd="33" hv="368.24077071317" hd="10" hl="0.1" he="3682.4077071317" ht="204.57820595176" hb="0.079487711308403" hi="36.824077071317" mi="54.245932842826"/>
+      <method name="kelas" start="75" end="80" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="19" hnd="15" hv="74.230921316562" hd="6.8571428571429" hl="0.14583333333333" he="509.012031885" ht="28.278446215833" hb="0.021250253280178" hi="10.825342691999" mi="73.634322355451"/>
+      <method name="orders" start="82" end="87" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="19" hnd="15" hv="74.230921316562" hd="6.8571428571429" hl="0.14583333333333" he="509.012031885" ht="28.278446215833" hb="0.021250253280178" hi="10.825342691999" mi="73.634322355451"/>
+      <method name="daftar" start="89" end="99" ccn="2" ccn2="2" loc="11" cloc="0" eloc="8" lloc="4" ncloc="11" npath="2" hnt="43" hnd="24" hv="197.15338753101" hd="10" hl="0.1" he="1971.5338753101" ht="109.52965973945" hb="0.05241009026591" hi="19.715338753101" mi="63.962772165404"/>
+    </class>
+  </package>
+</metrics>
